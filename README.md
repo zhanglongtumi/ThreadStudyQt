@@ -14,3 +14,4 @@ WorkObject对象与QThread对象 用信号与槽合作
 
 注：
 Sleep(5000);为windows下面  用于延时5秒
+
