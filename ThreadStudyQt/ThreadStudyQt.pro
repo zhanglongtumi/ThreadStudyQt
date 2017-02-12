@@ -13,8 +13,14 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    taskmanage/testthread.cpp \
+    taskmanage/workobject.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    taskmanage/testthread.h \
+    taskmanage/workobject.h
 
 FORMS    += mainwindow.ui
+
+INCLUDEPATH += taskmanage
